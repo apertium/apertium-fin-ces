@@ -1,0 +1,27 @@
+* text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/INSTALL -text
+/Makefile.am -text
+/NEWS -text
+/README -text
+/TODO -text
+/apertium-fin-ces.ces-fin.lrx -text
+/apertium-fin-ces.ces-fin.rlx -text
+/apertium-fin-ces.ces-fin.t1x -text svneol=unset#application/xml
+/apertium-fin-ces.ces-fin.t2x -text svneol=unset#application/xml
+/apertium-fin-ces.ces-fin.t3x -text svneol=unset#application/xml
+/apertium-fin-ces.fin-ces.dix -text
+/apertium-fin-ces.fin-ces.lrx -text
+/apertium-fin-ces.fin-ces.rlx -text
+/apertium-fin-ces.fin-ces.t1x -text svneol=unset#application/xml
+/apertium-fin-ces.fin-ces.t2x -text svneol=unset#application/xml
+/apertium-fin-ces.fin-ces.t3x -text svneol=unset#application/xml
+/autogen.sh -text
+/ces-fin.prob -text
+/configure.ac -text
+/fin-ces.prob -text
+/modes.xml -text svneol=unset#application/xml
+texts/tarina.ces.txt -text
+texts/tarina.fin.txt -text
