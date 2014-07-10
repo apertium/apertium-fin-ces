@@ -48,6 +48,11 @@
     </def-cat>
     <def-cat n="habitive">
         <cat-item tags="n.*.ade"/>
+        <cat-item tags="np.*.ade"/>
+        <cat-item tags="np.*.*.ade"/>
+        <cat-item tags="np.*.*.*.ade"/>
+        <cat-item tags="prn.*.*.ade"/>
+        <cat-item tags="prn.*.*.*.ade"/>
     </def-cat>
     <def-cat n="possessional">
         <cat-item lemma="olla" tags="vblex.actv.*.p3.sg"/>
@@ -152,6 +157,7 @@
       <attr-item tags="n.nt"/>
       <attr-item tags="n.f"/>
       <attr-item tags="n.m"/>
+      <attr-item tags="n.ma"/>
       <attr-item tags="vblex.subst"/>
       <attr-item tags="np"/>
       <attr-item tags="np.ant"/>
@@ -440,6 +446,38 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: habitive stuff">
+      <pattern>
+          <pattern-item n="habitive"/>
+          <pattern-item n="possessional"/>
+      </pattern>
+      <action>
+        <call-macro n="proc-synlabel1"> 
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk name="verb phrase" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+                <clip pos="1" side="tl" part="lem"/>
+                <clip pos="1" side="tl" part="a_nom"/>
+                <clip pos="1" side="tl" part="a_nbr"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+                <lit v="mít"/>
+                <lit-tag v="vbhaver.impf"/>
+                <clip pos="2" side="tl" part="moodtense"/> <!-- pres -->
+                <clip pos="2" side="tl" part="a_pers"/> <!--  -->
+                <clip pos="2" side="tl" part="a_nbr"/> <!--  -->
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="REGLA: NOM">
       <pattern>
         <pattern-item n="nom"/>
@@ -688,37 +726,6 @@
               <clip pos="2" side="tl" part="a_nom"/>
               <clip pos="2" side="tl" part="a_nbr"/>
               <clip pos="2" side="tl" part="a_cas"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-    <rule comment="REGLA: habitive stuff">
-      <pattern>
-          <pattern-item n="habitive"/>
-          <pattern-item n="possessional"/>
-      </pattern>
-      <action>
-        <call-macro n="proc-synlabel1"> 
-          <with-param pos="2"/>
-        </call-macro>
-        <out>
-          <chunk name="verb phrase" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SV"/></tag>
-            </tags>
-            <lu>
-                <clip pos="1" side="tl" part="lem"/>
-                <clip pos="1" side="tl" part="a_nom"/>
-                <clip pos="1" side="tl" part="a_nbr"/>
-            </lu>
-            <b pos="1"/>
-            <lu>
-                <clip pos="2" side="tl" part="lem"/>
-                <clip pos="2" side="tl" part="a_verb"/> <!-- vblex -->
-                <clip pos="2" side="tl" part="moodtense"/> <!-- pres -->
-                <clip pos="2" side="tl" part="voice"/> <!-- vblex -->
             </lu>
           </chunk>
         </out>
