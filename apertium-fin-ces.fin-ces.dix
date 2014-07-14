@@ -361,10 +361,10 @@
 
     <e><p><l>minä<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>prpers<s n="prn"/></r></p></e>
     <e><p><l>sinä<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e><p><l>hän<s n="prn"/><s n="pers"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e><p><l>hän<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
     <e><p><l>me<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
     <e><p><l>te<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
-    <e><p><l>he<s n="prn"/><s n="pers"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e><p><l>he<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="p3"/><s n="ma"/><s n="pl"/></r></p></e>
 
     <!-- demon -->
 
