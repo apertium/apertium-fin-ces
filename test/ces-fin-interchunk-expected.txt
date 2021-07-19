@@ -1,0 +1,20 @@
+[2iFi3NGGhX8x#0] ^default<default>{^@Velká Británie<np><top><f><sg><acc>$}$
+[/2iFi3NGGhX8x]
+[5E9H6FXPcewq#0] ^default<default>{^@svatý Mikuláš<np><ant><ma><sg><loc>$}$
+[/5E9H6FXPcewq]
+[Gz6rmOFVdgxm#0] ^default<default>{^@svatý Mikuláš<np><ant><ma><sg><voc>$}$
+[/Gz6rmOFVdgxm]
+[Muuxq8wcYBzr#0] ^default<default>{^(<lpar>$}$
+[/Muuxq8wcYBzr]
+[Yxq-OYa79RyZ#0] ^unknown<unknown>{^*Špatvlc$}$
+[/Yxq-OYa79RyZ]
+[mo_b2Mgft861#0] ^default<default>{^@svatý Jiří<np><ant><ma><sg><voc>$}$
+[/mo_b2Mgft861]
+[rymF7aNVQb7P#0] ^default<default>{^@svatý Jiří<np><ant><ma><sg><acc>$}$
+[/rymF7aNVQb7P]
+[u3IIvJtdfATx#0] ^sent<SENT>{^!<sent>$}$
+[/u3IIvJtdfATx]
+[yXVQzoIT71z2#0] ^default<default>{^05<num><qnt>$}$
+[/yXVQzoIT71z2]
+[zbTuKuppzGqD#0] ^sent<SENT>{^.<sent>$}$
+[/zbTuKuppzGqD]

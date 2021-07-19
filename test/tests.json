@@ -1,0 +1,10 @@
+{
+    "ces-fin": {
+        "input": "ces-fin-input.txt",
+        "mode": "ces-fin"
+    },
+    "fin-ces": {
+        "input": "fin-ces-input.txt",
+        "mode": "fin-ces"
+    }
+}

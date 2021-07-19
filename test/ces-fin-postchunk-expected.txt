@@ -1,0 +1,20 @@
+[2iFi3NGGhX8x#0] ^@Velká Británie<np><top><f><sg><acc>$
+[/2iFi3NGGhX8x]
+[5E9H6FXPcewq#0] ^@svatý Mikuláš<np><ant><ma><sg><loc>$
+[/5E9H6FXPcewq]
+[Gz6rmOFVdgxm#0] ^@svatý Mikuláš<np><ant><ma><sg><voc>$
+[/Gz6rmOFVdgxm]
+[Muuxq8wcYBzr#0] ^(<lpar>$
+[/Muuxq8wcYBzr]
+[Yxq-OYa79RyZ#0] ^*Špatvlc$
+[/Yxq-OYa79RyZ]
+[mo_b2Mgft861#0] ^@svatý Jiří<np><ant><ma><sg><voc>$
+[/mo_b2Mgft861]
+[rymF7aNVQb7P#0] ^@svatý Jiří<np><ant><ma><sg><acc>$
+[/rymF7aNVQb7P]
+[u3IIvJtdfATx#0] ^!<sent>$
+[/u3IIvJtdfATx]
+[yXVQzoIT71z2#0] ^05<num><qnt>$
+[/yXVQzoIT71z2]
+[zbTuKuppzGqD#0] ^.<sent>$
+[/zbTuKuppzGqD]

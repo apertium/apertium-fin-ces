@@ -1,0 +1,4 @@
+[0sUICmA809xi#0] ^poss<POSS>{^<prn><pers><p1><un><pl><gen>$}$ ^n<SN><ill><px1pl>{^@xhosa<n><pl><loc>$}$:^poss<POSS>{^<prn><pers><p1><un><pl><gen>$}$ ^n<SN><ill><px1pl>{^*xhosa<n><pl><loc>$}$
+[/0sUICmA809xi]
+[YXfeNv90a4gS#0] ^n<SN><ill>{^@Yorke<np><pl><loc>$}$ ^default<default>{^@kin<enc>$}$
+[/YXfeNv90a4gS]

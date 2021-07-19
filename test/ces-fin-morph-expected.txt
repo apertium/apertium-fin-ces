@@ -1,0 +1,20 @@
+[2iFi3NGGhX8x#0] ^Velkou Británii/Velká Británie<np><top><f><sg><acc>$
+[/2iFi3NGGhX8x]
+[5E9H6FXPcewq#0] ^svatým Mikuláši/svatý Mikuláš<np><ant><ma><sg><loc>$
+[/5E9H6FXPcewq]
+[Gz6rmOFVdgxm#0] ^svatý Mikuláš/svatý Mikuláš<np><ant><ma><sg><voc>/svatý Mikuláš<np><ant><ma><sg><nom>$
+[/Gz6rmOFVdgxm]
+[Muuxq8wcYBzr#0] ^(/(<lpar>$
+[/Muuxq8wcYBzr]
+[Yxq-OYa79RyZ#0] ^Špatvlc/*Špatvlc$
+[/Yxq-OYa79RyZ]
+[mo_b2Mgft861#0] ^svatý Jiří/svatý Jiří<np><ant><ma><sg><voc>/svatý Jiří<np><ant><ma><sg><nom>$
+[/mo_b2Mgft861]
+[rymF7aNVQb7P#0] ^svatého Jiří/svatý Jiří<np><ant><ma><sg><acc>$
+[/rymF7aNVQb7P]
+[u3IIvJtdfATx#0] ^!/!<sent>$
+[/u3IIvJtdfATx]
+[yXVQzoIT71z2#0] ^05/05<num><qnt>$
+[/yXVQzoIT71z2]
+[zbTuKuppzGqD#0] ^./.<sent>$
+[/zbTuKuppzGqD]
