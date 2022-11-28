@@ -2,10 +2,11 @@
 !! ATTRIBUTE CATEGORIES
 !!!!!!!!!!!!!!!
 
-number = (ND sg) sg pl sp ND;
+number = (ND sg) sg pl sp qnt ND;
 gender = (GD m) m f mf GD;
 det_type = def ind dem itg;
 tense = pres past fut ifi pri fti;
+person = p1 p2 p3 ;
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
@@ -13,8 +14,17 @@ tense = pres past fut ifi pri fti;
 
 n: _.gender.number;
 adj: _.gender.number;
+num: _.number;
+vblex: _.tense.person.number;
+vbser_default: _.tense.person.number;
+vbser_past: _.tense.gender.number;
+vaux_default: _.tense.person.number;
+vaux_past: _.tense.gender.number;
 det_default: _.det_type;
 det_def: _.det_type.number;
+
+NUM: _;
+V: _;
 
 NP: _.number;
 
@@ -22,7 +32,7 @@ NP: _.number;
 !! TAG-REWRITE RULES
 !!!!!!!!!!!!!!!
 
-tense > tense : ifi past, pri pres, fti fut;
+tense > tense : pri past, fti fut;
 
 !!!!!!!!!!!!!!!
 !! MACROS
@@ -33,9 +43,25 @@ det: (if (1.det_type = def or 1.det_type = ind)
       else
          1(det_default));
 
+vbser: (if (1.tense = pri or 1.tense = past)
+            1(vbser_past)[gender=nt]
+        else
+            1(vbser_default)) ;
+vaux: (if (1.tense = pri or 1.tense = past)
+            1(vaux_past)[gender=nt]
+        else
+            1(vaux_default)) ;
+
 !!!!!!!!!!!!!!!
 !! REDUCTION RULES
 !!!!!!!!!!!!!!!
+
+V -> vblex { %1 } |
+     vbser { %1 } |
+     vaux { %1 } ;
+NUM -> num {1[number = (if (1.lem/sl = "yksi") sg 
+              elif (1.lem/sl = "5") qnt   ! qnt numbers -_-
+              else pl)] } ;
 
 ! Example rule:
 ! Input:  ^ראש<n><m><sg>/hovud<n><nt><sg>$ ^גדול<adj><m><sg>/stor<adj><m><sg>$

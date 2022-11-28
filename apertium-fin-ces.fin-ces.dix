@@ -19,6 +19,7 @@
     <sdef n="vbmod"  c="Глагол 'быть'"/>
     <sdef n="vbser"  c="Глагол 'быть'"/>
     <sdef n="sent"  c="juttu"/>
+    <sdef n="punct"  c="juttu"/>
     <sdef n="cm"  c="senttimetri"/>
     <sdef n="pr"  c="Propositio"/>
     <sdef n="post"  c="Posti"/>
@@ -26,35 +27,35 @@
     <sdef n="np" c="Properatiivi"/>
     <sdef n="vaux" c="apuverbi"/>
     <sdef n="qst" c="Kyselmä"/>
-    <sdef n="guio" 	c=""/> 
-    <sdef n="lpar" 	c=""/> 
-    <sdef n="p2" 	c=""/> 
-    <sdef n="ger" 	c=""/> 
-    <sdef n="top" 	c=""/> 
-    <sdef n="subst" 	c=""/> 
-    <sdef n="nom" 	c=""/> 
-    <sdef n="sg" 	c=""/> 
-    <sdef n="sp" 	c=""/> 
-    <sdef n="rpar" 	c=""/> 
-    <sdef n="lquot" 	c=""/> 
-    <sdef n="rquot" 	c=""/> 
-    <sdef n="apos" 	c=""/> 
-    <sdef n="itg" 	c="kysymys"/> 
-    <sdef n="ant" 	c="muurahainen"/> 
-    <sdef n="p3" 	c="charmed"/> 
-    <sdef n="p1" 	c="person one/obob"/> 
-    <sdef n="pers" 	c="e"/> 
-    <sdef n="dem" 	c="e"/> 
-    <sdef n="reflex" 	c="e"/> 
-    <sdef n="rel" 	c="aa"/> 
-    <sdef n="m" 	c="pojista"/> 
-    <sdef n="f" 	c="tytöille"/> 
-    <sdef n="mf" 	c="ei oo nin väliks"/> 
-    <sdef n="mfn" 	c="ARGH"/> 
-    <sdef n="ma" 	c="vat"/> 
-    <sdef n="mi" 	c="vat"/> 
-    <sdef n="CLB" 	c="CG hack"/> 
-    <sdef n="abbr" 	c="eviation"/> 
+    <sdef n="guio" 	c=""/>
+    <sdef n="lpar" 	c=""/>
+    <sdef n="p2" 	c=""/>
+    <sdef n="ger" 	c=""/>
+    <sdef n="top" 	c=""/>
+    <sdef n="subst" 	c=""/>
+    <sdef n="nom" 	c=""/>
+    <sdef n="sg" 	c=""/>
+    <sdef n="sp" 	c=""/>
+    <sdef n="rpar" 	c=""/>
+    <sdef n="lquot" 	c=""/>
+    <sdef n="rquot" 	c=""/>
+    <sdef n="apos" 	c=""/>
+    <sdef n="itg" 	c="kysymys"/>
+    <sdef n="ant" 	c="muurahainen"/>
+    <sdef n="p3" 	c="charmed"/>
+    <sdef n="p1" 	c="person one/obob"/>
+    <sdef n="pers" 	c="e"/>
+    <sdef n="dem" 	c="e"/>
+    <sdef n="reflex" 	c="e"/>
+    <sdef n="rel" 	c="aa"/>
+    <sdef n="m" 	c="pojista"/>
+    <sdef n="f" 	c="tytöille"/>
+    <sdef n="mf" 	c="ei oo nin väliks"/>
+    <sdef n="mfn" 	c="ARGH"/>
+    <sdef n="ma" 	c="vat"/>
+    <sdef n="mi" 	c="vat"/>
+    <sdef n="CLB" 	c="CG hack"/>
+    <sdef n="abbr" 	c="eviation"/>
     <sdef n="nt"    c="gender N"/>
     <sdef n="ut"    c="gender U"/>
     <sdef n="ref"    c="reference"/>
@@ -79,9 +80,10 @@
   </sdefs>
   <section id="main" type="standard">
 
+    <e><p><l>ko<s n="qst"/></l><r>?</r></p></e>
 
     <!-- propers -->
-    
+
     <e><p><l>Mari<s n="np"/></l><r>Mari<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
     <e><p><l>Jaakko<s n="np"/></l><r>Jaakko<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
@@ -106,7 +108,7 @@
     <e><p><l>9<s n="num"/></l><r>9<s n="num"/></r></p></e>
     <e><p><l>10<s n="num"/></l><r>10<s n="num"/></r></p></e>
     <e><p><l>11<s n="num"/></l><r>11<s n="num"/></r></p></e>
-    
+
     <e><p><l>1.<s n="num"/></l><r>1.<s n="num"/></r></p></e>
     <e><p><l>2.<s n="num"/></l><r>2.<s n="num"/></r></p></e>
     <e><p><l>4.<s n="num"/></l><r>4.<s n="num"/></r></p></e>
@@ -188,7 +190,7 @@
 
 
     <!-- ordinals -->
-    
+
 
     <!-- nouns-->
 
@@ -205,7 +207,7 @@
     <e><p><l>äiti<s n="n"/></l><r>matka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ikkuna<s n="n"/></l><r>okno<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>puu<s n="n"/></l><r>strom<s n="n"/><s n="mi"/></r></p></e>
-    
+
     <e><p><l>käsi<s n="n"/></l><r>ruce<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>silmä<s n="n"/></l><r>oko<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>leikki<s n="n"/></l><r>hrat<s n="n"/><s n="f"/></r></p></e>
@@ -220,22 +222,23 @@
     <e><p><l>eläin<s n="n"/></l><r>žvíře<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pää<s n="n"/></l><r>hlava<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vesi<s n="n"/></l><r>voda<s n="n"/><s n="f"/></r></p></e>
-    
+
 
     <!-- verbs-->
 
-    <e><p><l>ei<s n="vblex"/></l><r>ne<s n="adv"/></r></p></e>
+    <e><p><l>ei<s n="vaux"/></l><r>ne<s n="adv"/></r></p></e>
 
-    <!-- auxiliaries = in Finnish verbs with infinitive complement -->
+    <!-- auxiliaries -->
 
     <e><p><l>voida<s n="vaux"/></l><r>moci<s n="vaux"/><s n="impf"/><s n="ma"/></r></p></e>
     <e><p><l>osata<s n="vblex"/></l><r>moci<s n="vaux"/><s n="impf"/><s n="ma"/></r></p></e>
     <e><p><l>pystyä<s n="vblex"/></l><r>moci<s n="vaux"/><s n="impf"/><s n="ma"/></r></p></e>
+    <e><p><l>olla<s n="vaux"/></l><r>být<s n="vbser"/></r></p></e>
 
     <!-- lexical verbs = the rest -->
 
     <e><p><l>olla<s n="vblex"/></l><r>být<s n="vbser"/></r></p></e>
-    
+
     <e><p><l>leikkiä<s n="vblex"/></l><r>hrát<s n="vblex"/><s n="impf"/></r></p></e>
     <!--<e><p><l>pitää<s n="vblex"/></l><r>obožavati<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>-->
     <e><p><l>nukkua<s n="vblex"/></l><r>spit<s n="vblex"/><s n="impf"/></r></p></e>
@@ -245,13 +248,13 @@
     <e><p><l>tietää<s n="vblex"/></l><r>vědět<s n="vblex"/><s n="impf"/></r></p></e>
     <!--<e><p><l>istua<s n="vblex"/></l><r>sjediti<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>-->
     <e><p><l>laskea<s n="vblex"/></l><r>počítat<s n="vblex"/><s n="impf"/></r></p></e>
-    
+
     <e><p><l>tehdä<s n="vblex"/></l><r>dělat<s n="vblex"/><s n="impf"/></r></p></e>
     <!--<e><p><l>lopettaa<s n="vblex"/></l><r>završavati<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>-->
     <e><p><l>etsiä<s n="vblex"/></l><r>hledat<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>mennä<s n="vblex"/></l><r>jít<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>kysyä<s n="vblex"/></l><r>zeptat<s n="vblex"/><s n="perf"/></r></p></e>
-    
+
     <e><p><l>puhua<s n="vblex"/></l><r>mluvit<s n="vblex"/><s n="impf"/></r></p></e>
     <!--<e><p><l>saada<s n="vblex"/></l><r>dobivati<s n="vblex"/><s n="impf"/><s n="tv"/></r></p></e>
     <e><p><l>nauraa<s n="vblex"/></l><r>smijati<s n="vblex"/><s n="impf"/><s n="ref"/></r></p></e>
@@ -356,15 +359,16 @@
     <e><p><l>muu<s n="prn"/></l><r>drugi<s n="adj"/><s n="pst"/><s n="nt"/></r></p></e>
     <e><p><l>molemmat<s n="prn"/></l><r>oboje<s n="prn"/><s n="tot"/><s n="nt"/></r></p></e>
     -->
+    <e><p><l>molemmat<s n="prn"/></l><r>něco<s n="prn"/><s n="tot"/><s n="nt"/></r></p></e>
 
     <!-- persons -->
 
-    <e><p><l>minä<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>prpers<s n="prn"/></r></p></e>
-    <e><p><l>sinä<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e><p><l>hän<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e><p><l>minä<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
+    <e><p><l>sinä<s n="prn"/></l><r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>hän<s n="prn"/></l><r>prpers<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
     <e><p><l>me<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
     <e><p><l>te<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
-    <e><p><l>he<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="p3"/><s n="ma"/><s n="pl"/></r></p></e>
+    <e><p><l>he<s n="prn"/></l><r>prpers<s n="prn"/><s n="p3"/><s n="ma"/><s n="pl"/></r></p></e>
 
     <!-- demon -->
 
@@ -374,16 +378,16 @@
     <!-- interrogation -->
     <e><p><l>miksi<s n="prn"/><s n="itg"/></l><r>proč<s n="rel"/><s n="adv"/></r></p></e>
     <e><p><l>mitä<s n="prn"/></l><r>co<s n="det"/><s n="nom"/></r></p></e>
-    
+
 
     <!-- translating clitics into words kind of works -->
 
 
-    
+
 <!-- Раздел: Имя Существительное -->
 
     <e><p><l>'<s n="apos"/></l><r>'<s n="apos"/></r></p></e>
-    <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+    <e><p><l>,<s n="punct"/></l><r>,<s n="cm"/></r></p></e>
     <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
     <e><p><l>--<s n="guio"/></l><r>–<s n="guio"/></r></p></e>
     <e><p><l>–<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
@@ -396,25 +400,25 @@
     <e><p><l>»<s n="lquot"/></l><r>«<s n="lquot"/></r></p></e>
     <e><p><l>)<s n="rpar"/></l><r>)<s n="rpar"/></r></p></e>
     <e><p><l>]<s n="rpar"/></l><r>]<s n="rpar"/></r></p></e>
-    <e><p><l>"<s n="rquot"/></l><r>"<s n="rquot"/></r></p></e>
+    <e><p><l>"<s n="punct"/></l><r>"<s n="rquot"/></r></p></e>
     <e><p><l>”<s n="rquot"/></l><r>”<s n="rquot"/></r></p></e>
     <e><p><l>»<s n="rquot"/></l><r>»<s n="rquot"/></r></p></e>
     <e><p><l>(<s n="sent"/>in</l><r>(<s n="lpar"/></r></p></e>
     <e><p><l>)<s n="sent"/></l><r>)<s n="rpar"/></r></p></e>
     <e><p><l>_<s n="sent"/></l><r>_<s n="sent"/></r></p></e>
-    <e><p><l>:<s n="sent"/></l><r>:<s n="sent"/></r></p></e>
+    <e><p><l>:<s n="punct"/></l><r>:<s n="sent"/></r></p></e>
     <e><p><l>;<s n="sent"/></l><r>;<s n="sent"/></r></p></e>
-    <e><p><l>!<s n="sent"/></l><r>!<s n="sent"/></r></p></e>
-    <e><p><l>?<s n="sent"/></l><r>?<s n="sent"/></r></p></e>
-    <e><p><l>.<s n="sent"/></l><r>.<s n="sent"/></r></p></e>
+    <e><p><l>!<s n="punct"/></l><r>!<s n="sent"/></r></p></e>
+    <e><p><l>?<s n="punct"/></l><r>?<s n="sent"/></r></p></e>
+    <e><p><l>.<s n="punct"/></l><r>.<s n="sent"/></r></p></e>
     <e><p><l>..<s n="sent"/></l><r>..<s n="sent"/></r></p></e>
     <e><p><l>...<s n="sent"/></l><r>...<s n="sent"/></r></p></e>
     <e><p><l>#<s n="sent"/></l><r>#<s n="sent"/></r></p></e>
     <e><p><l>%<s n="sent"/></l><r>%<s n="sent"/></r></p></e>
 
     <!-- digit loop -->
-    <e><re>[№%]?[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
-      
+    <e><re>[№%]?[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+
 
   </section>
 </dictionary>
